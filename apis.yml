@@ -1,8 +1,27 @@
 aid: pb-health
-name: Pb Health
-description: Pb Health is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: PB Health
+description: PB Health (PB Healthcare Service Pvt Ltd) is an India-based consumer healthcare
+  network offering end-to-end care through a single app - online doctor consultations,
+  hospital visits and admissions, lab tests and radiology scans, medicine ordering, diabetes
+  and obesity management, preventive health packages, and structured home care and recovery.
+  The platform spans top specialities including cardiology, gastroenterology, orthopaedics,
+  pulmonology, internal medicine, gynaecology, ENT, paediatrics, and minimal-access and
+  bariatric surgery, and helps families coordinate their complete health and insurance
+  journey. PB Health is a consumer mobile application (iOS and Android) and website; it
+  does not publish a public developer API, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/pb-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.pbhealth.com/icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +30,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Health
+- Telehealth
+- Home Care
+- Diagnostics
+- Hospital
+- Consumer Health
+- Insurance
+- India
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/pb-health-domain-security.yml
+- type: Website
+  url: https://www.pbhealth.com/
+- type: About
+  url: https://www.pbhealth.com/about-us
+- type: Blog
+  url: https://www.pbhealth.com/blogs
+- type: Login
+  url: https://www.pbhealth.com/login
+- type: Support
+  url: https://www.pbhealth.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.pbhealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.pbhealth.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
